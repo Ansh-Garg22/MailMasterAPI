@@ -21,7 +21,7 @@ mongoose
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.get('/', (req, res) => {
-  res.send("---");
+  res.send("ALL API can be tested via POSTMAN , shared the link");
 });
 app.use("/lists", listRoutes);
 app.use("/users", userRoutes);
